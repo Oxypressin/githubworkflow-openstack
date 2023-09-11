@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "githubworkflow"
+  description: "github workflow"
+  annotations:
+    github.com/project-slug: damodarkumar/githubworkflow-openstack
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/project-a"
